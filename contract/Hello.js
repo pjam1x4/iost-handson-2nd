@@ -16,8 +16,8 @@ class Hello {
    * @returns {string}
    */
   hello() {
-    // add msg getter here
-    return `${msg}, ${tx.publisher}!`;
+    const msg = storage.get("msg");
+    return `${msg} ${msg}, ${tx.publisher}!`;
   }
   /**
    * change hello message
