@@ -14,7 +14,7 @@ npm install
 ### テストネットのアカウントを作成
 
 ```
-npm run signUp id:hogehoge
+npm run create id:hogehoge
 ```
 
 ### アカウント情報の保存
