@@ -50,7 +50,7 @@ npm run balance id:hogehoge
 スマートコントラクトのデプロイを実行する。
 
 ```
-npm run publish
+npm run deploy
 ```
 
 デプロイしたスマートコントラクトのアップデートを実行する。
