@@ -17,7 +17,7 @@ class Hello {
    */
   hello() {
     // add msg getter here
-    return `${msg} ${msg}, ${tx.publisher}!`;
+    return `${msg}, ${tx.publisher}!`;
   }
   /**
    * change hello message

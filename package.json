@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "publish": "node scripts/publish",
+    "deploy": "node scripts/deploy",
     "update": "node scripts/update",
     "signUp": "node scripts/signUp",
     "ram": "node scripts/ram",
@@ -18,7 +18,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@kunroku/iost": "^1.1.0"
+    "@kunroku/iost": "^2.0.0"
   },
   "devDependencies": {
     "@types/iost-contract": "^3.4.1"
